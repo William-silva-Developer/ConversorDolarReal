@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/748/748454.png?w=740" type="image/x-icon">
+    
+    <title>Imersão Dev Alura - Calculadora</title>
+</head>
+<body>
+    <header class="header">
+        <a href="https://alura.com.br/" target="_blank" class="">
+            <img  src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="">
+        </a>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pacotes.html">Pacotes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <div class="media">
+            <h1>Conversor de moedas</h1>
+            <p>Convertar de dolar para Real de <br>
+                maneira rapida e prática!</p>
+            
+            <div class="convert">
+                
+                <label for="">Digite o valor em dolar</label><br>
+                <input type="number" id="converter" size="2">
+
+                <button type="submit" onclick="Convert()">Converte</button>
+
+                <div class="resultado">
+                    <p id="result"> </p>
+                </div>
+            </div>
+            
+
+
+        </div>
+    </section>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
